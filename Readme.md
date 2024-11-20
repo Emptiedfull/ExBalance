@@ -1,4 +1,4 @@
-Powerful simple load balancer built in python
+Powerful simple load balancer built in python. It distributes the load into exisitng servers and also upscales automatically during periods of high requests.
 
 Usage:
 
