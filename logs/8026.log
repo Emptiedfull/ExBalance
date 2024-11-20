@@ -1,0 +1,4 @@
+Request received
+INFO:     127.0.0.1:56198 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56219 - "GET /pow HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56516 - "GET /pow HTTP/1.1" 200 OK
