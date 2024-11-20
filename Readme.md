@@ -2,7 +2,7 @@ Powerful simple load balancer built in python
 
 Usage:
 
-python main.py <asgi-app-path:app> <port>
+python main.py asgi-app-path port
 
 Run demo:
 
