@@ -1,0 +1,15 @@
+Logging:
+  Level: DEBUG
+  AppLogFile: app.log
+  PortLogPath: logs
+  ErrorLogPath: logs
+
+Application:
+  asgi: 'uvicorn'
+  app: 'testapp'
+  host: '0.0.0.0'
+  port: 8000
+  
+  free_ports: [8001, 8002, 8003, 8004, 8005]
+  threshold: 0.8
+

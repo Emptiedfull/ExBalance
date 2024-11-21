@@ -28,6 +28,6 @@ async def read_root():
 @app.get("/pow")
 async def get_pow():
     start_time = time.time()
-    await asyncio.sleep(1)
+    time.sleep(1)
     time_taken = time.time() - start_time
     return time_taken

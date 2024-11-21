@@ -26,7 +26,7 @@ async def main(rp):
 
 if __name__ == "__main__":
     timestart = time.time()
-    rp = 100
+    rp = 1000
     asyncio.run(main(rp))
     time_taken = time.time() - timestart
     print(f"Time taken: {time_taken} seconds")
